@@ -12,4 +12,4 @@ On-The-Job Ticket-01
 
 # Application Screenshot
 
-![The screenshot of the application contains a header, navigation links, four images, and text.](Challenge-01\Assets\01-html-css-git-homework-demo.png)
+![The screenshot of the application contains a header, navigation links, four images, and text.](01-html-css-git-homework-demo copy.png)
