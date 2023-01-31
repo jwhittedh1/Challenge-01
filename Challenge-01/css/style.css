@@ -10,7 +10,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Adds padding, font-type, background, and text color to the heading*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,7 +33,7 @@ header {
 .header div {
     padding-top: 15px;
     margin-right: 20px;
-/*floats links to the right side of the header*/
+/*Floats links to the right side of the header*/
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -47,18 +46,18 @@ header {
 
 /*Class Selector for unordered list in header*/
 .header div ul li {
-/*creates links horizontally*/
+/*Creates links horizontally*/
     display: inline-block;
     margin-left: 25px;
 }
 
-/*element selector for links*/
+/*Element selector for links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*element selector*/
+/*Element selector for text*/
 p {
     font-size: 16px;
 }
@@ -75,29 +74,30 @@ p {
 
 /*Class Selector*/
 .float-left {
-/*offsets text to the left of the image in content*/
+/*Offsets text to the left of the image in content*/
     float: left;
     margin-right: 25px;
 }
 
-/*offsets text to the right of the image in content*/
+/*Offsets text to the right of the image in content*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-
+/*Class Selector*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Class Selector*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-/*offsets element to the right of content*/
+/*Offsets element to the right of content*/
     float: right;
     width: 20%;
     height: 100%;
@@ -105,22 +105,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Class Selector*/
 .benefit-1 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Class Selector for h3 in benefit-1*/
 .benefit-1 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Class Selector for image in benefit-1*/
 .benefit-1 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Class Selector*/
 .content-1 {
     margin-bottom: 20px;
     padding: 50px;
@@ -130,22 +134,27 @@ p {
     color: #ffffff;
 }
 
+/*Class Selector for images in content-1*/
 .content-1 img {
     max-height: 200px;
 }
 
+/*Class Selector for h2 in content-1*/
 .content-1 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Class Selector*/
 .footer {
     padding: 30px;
+/*Moves element below floating elements*/    
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/*Class Selector for h2 in footer*/
 .footer h2 {
     font-size: 20px;
 }
